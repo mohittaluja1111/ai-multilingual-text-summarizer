@@ -1,69 +1,96 @@
-# 🧠 AI Multilingual Text & PDF Summarizer
+# 🧠 AI Multilingual Text Summarizer
 
-A full-stack AI-powered application that summarizes text and PDF documents with support for multiple languages, keyword extraction, and interactive document chat.
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-NLP-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Backend-Node.js-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Styling-TailwindCSS-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
+</p>
 
 ---
 
-## 🚀 Features
+## 🚀 Overview
 
-* ✨ Text Summarization (AI-based)
+AI Multilingual Text Summarizer is a full-stack AI application that can summarize long text and PDF documents, extract key insights, and support multiple Indian languages.
+
+It also features **Chat with PDF**, allowing users to interact with documents intelligently.
+
+---
+
+## ✨ Key Features
+
+* 📝 Text Summarization
 * 📄 PDF Upload & Summarization
-* 🌍 Multilingual Support (Indian Languages)
+* 🌍 Multilingual Support (Hindi, Tamil, Telugu, Bengali, etc.)
 * 🔑 Keyword Extraction
-* 💬 Chat with PDF (Q&A)
-* 📥 Download Summary as PDF
-* 📋 Copy to Clipboard
-* 🎨 Modern UI (Tailwind CSS)
+* 💬 Chat with PDF (Context-based Q&A)
+* 📋 Copy & Download Summary
+* 🎨 Modern UI (Tailwind + Glassmorphism)
 
 ---
 
-## 🖼️ Dashboard Preview
+## 🧠 How It Works
 
-### 🔹 Main Interface
-
-<img width="1917" height="961" alt="dashboard_1" src="https://github.com/user-attachments/assets/fc327807-c6b2-4935-adb8-85caaaa5f4b6" />
-
-### 🔹 Generated Summary
-
-<img width="1890" height="962" alt="dashboard_2" src="https://github.com/user-attachments/assets/d56befb2-18f6-4c16-93f7-03c61b539870" />
+1. User inputs text or uploads a PDF
+2. PDF is converted into readable text
+3. AI model (T5 Transformer) generates summary
+4. Translation model converts summary into selected language
+5. Chat system uses document context to answer questions
 
 ---
 
-## 🛠️ Tech Stack
+## 🏗️ Tech Stack
 
-**Frontend:**
+| Layer       | Technology                     |
+| ----------- | ------------------------------ |
+| Frontend    | React.js, Tailwind CSS         |
+| Backend     | Node.js, Express               |
+| AI Models   | Xenova Transformers (T5, NLLB) |
+| PDF Parsing | pdf.js                         |
 
-* React.js
-* Tailwind CSS
-* HTML2PDF.js
+---
 
-**Backend:**
+## 📸 Screenshots
 
-* Node.js
-* Express.js
-* Transformers.js (@xenova)
+### 🔹 Dashboard
 
-**AI Models:**
+<img width="1917" height="961" alt="dashboard_1" src="https://github.com/user-attachments/assets/11d61a61-c6c8-46c1-919a-30341ec7119f" />
 
-* T5 (Summarization)
-* NLLB (Translation - Multilingual)
+### 🔹 PDF Summary
+
+<img width="1890" height="962" alt="dashboard_2" src="https://github.com/user-attachments/assets/6ce20e09-d3f2-4ba8-9286-6e402eb5a427" />
+
+> 📌 Add your screenshots inside a `screenshots/` folder
+
+---
+
+## 🎬 Demo Video
+
+👉 [Watch Full Demo](https://your-video-link)
+
+---
+
+## 📄 Project Report
+
+👉 [View Report](https://your-pdf-link)
 
 ---
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the repository
+### 1️⃣ Clone Repository
 
-```
-git clone https://github.com/YOUR_USERNAME/ai-multilingual-text-summarizer.git
+```bash
+git clone https://github.com/your-username/ai-multilingual-text-summarizer
 cd ai-multilingual-text-summarizer
 ```
 
 ---
 
-### 2️⃣ Setup Backend
+### 2️⃣ Backend Setup
 
-```
+```bash
 cd backend
 npm install
 node server.js
@@ -71,9 +98,9 @@ node server.js
 
 ---
 
-### 3️⃣ Setup Frontend
+### 3️⃣ Frontend Setup
 
-```
+```bash
 cd frontend
 npm install
 npm start
@@ -81,41 +108,53 @@ npm start
 
 ---
 
-## 🌐 Usage
+## 🧪 Usage
 
-* Enter text and generate summary
-* Upload PDF and summarize content
-* Select preferred language
-* Extract keywords
-* Chat with uploaded PDF
-* Download summary as PDF
+* Enter text → Click **Summarize**
+* Upload PDF → Get summary instantly
+* Select language → Get multilingual output
+* Use **Chat with PDF** → Ask questions
 
 ---
 
-## 🎯 Future Improvements
+## 📊 Business Impact
 
-* User Authentication (Login/Signup)
-* Cloud Deployment (AWS / Vercel / Render)
-* Advanced NLP models (GPT APIs)
-* File history & dashboard
-
----
-
-## 🤝 Acknowledgements
-
-Special thanks to mentors and open-source AI communities for guidance and resources.
+* 📚 Education → Summarize notes & research papers
+* 🏥 Healthcare → Simplify reports
+* 🏢 Corporate → Faster document analysis
+* 📈 Content Creation → Quick insights
 
 ---
 
-## 📌 Author
+## ⚠️ Limitations
+
+* Uses lightweight models (not GPT-level reasoning)
+* Limited PDF pages (performance optimization)
+* Requires local setup (unless deployed)
+
+---
+
+## 🔮 Future Improvements
+
+* GPT-based advanced summarization
+* User authentication
+* Cloud deployment (scalable)
+* Voice input & output
+
+---
+
+## 👨‍💻 Author
 
 **Mohit Taluja**
-AI & Data Science Enthusiast
+📌 Aspiring AI Engineer & Data Scientist
 
 ---
 
-## ⭐ If you like this project
+## ⭐ Support
 
-Give it a star ⭐ on GitHub and share it!
+If you found this project useful:
+
+👉 Give it a ⭐ on GitHub
+👉 Share your feedback
 
 ---
