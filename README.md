@@ -67,7 +67,7 @@ It also features **Chat with PDF**, allowing users to interact with documents in
 
 ## 🎬 Demo Video
 
-👉 [Watch Full Demo](https://your-video-link)
+👉 [https://drive.google.com/drive/folders/1PdCZ4R7IoJjKCdJ3EhyZfId2KjJmYqT-?usp=sharing)
 
 ---
 
