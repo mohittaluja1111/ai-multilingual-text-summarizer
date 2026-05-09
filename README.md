@@ -67,13 +67,13 @@ It also features **Chat with PDF**, allowing users to interact with documents in
 
 ## 🎬 Demo Video
 
-👉 [https://drive.google.com/drive/folders/1PdCZ4R7IoJjKCdJ3EhyZfId2KjJmYqT-?usp=sharing)
+👉 [Demo Video](https://drive.google.com/drive/folders/1PdCZ4R7IoJjKCdJ3EhyZfId2KjJmYqT-?usp=sharing)
 
 ---
 
 ## 📄 Project Report
 
-👉 [https://github.com/mohittaluja1111/ai-multilingual-text-summarizer/blob/main/AI_Text_Summarizer_Project_Report.pdf)
+👉 [Project Report](https://github.com/mohittaluja1111/ai-multilingual-text-summarizer/blob/main/AI_Text_Summarizer_Project_Report.pdf)
 
 ---
 
