@@ -73,7 +73,7 @@ It also features **Chat with PDF**, allowing users to interact with documents in
 
 ## 📄 Project Report
 
-👉 [View Report](https://your-pdf-link)
+👉 [https://github.com/mohittaluja1111/ai-multilingual-text-summarizer/blob/main/AI_Text_Summarizer_Project_Report.pdf)
 
 ---
 
